@@ -47,25 +47,37 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-map-marker:before {
-    content: "\f041";
-  }
-  .icon-shopping-cart:before {
-    content: "\f07a";
-  }
-  .icon-phone:before {
-    content: "\f095";
-  }
-  .icon-bolt:before {
-    content: "\f0e7";
-  }
-  .icon-flash:before {
-    content: "\f0e7";
-  }
-  .icon-angle-right:before {
-    content: "\f105";
-  }
-  .icon-location-arrow:before {
-    content: "\f124";
-  }
   
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-heart-o:before {
+  content: "\f08a";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+.icon-bolt:before {
+  content: "\f0e7";
+}
+.icon-flash:before {
+  content: "\f0e7";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-location-arrow:before {
+  content: "\f124";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}

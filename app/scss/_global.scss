@@ -69,3 +69,16 @@ body {
     display: inline-block;
     margin-right: 30px;
 }
+
+.angle-right {
+    position: relative;
+    padding-left: 15px;
+    &::before {
+        content: '\f105';
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        font-size: 14px;
+        color: $green;
+    }
+}
