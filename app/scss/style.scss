@@ -27,7 +27,7 @@
 
 .header__btn {
     padding: 4px;
-    width: 72px;
+    max-width: 72px;
     border-radius: 4px;
     color: #fff;
     text-align: center;
@@ -109,14 +109,15 @@
 }
 
 .basket {
+    margin-right: 25px;
     span {
         background-color: $green;
     }
 }
 
 .user {
-    margin-left: 20px;
-    margin-right: 25px;
+   
+   
     padding-right: 20px;
     position: relative;
     &::before {
@@ -207,6 +208,7 @@
     height: 0;
     overflow: hidden;
     transition: all .3s;
+    z-index: 1;
 }
 
 .basket__box,
@@ -329,6 +331,10 @@
     color: $orange;
 }
 
+.header__btn-menu,
+.menu__btn {
+    display: none;
+}
 // end header
 
 // start search
@@ -865,3 +871,6 @@
 }
 
 // end footer
+
+
+@import 'media';
